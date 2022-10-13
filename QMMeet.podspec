@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  #s.vendored_libraries  = "QMLineSDK.framework"
+  s.vendored_libraries  = "QMLineSDK.framework"
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64'}
 
   # s.dependency 'AFNetworking', '~> 2.3'
