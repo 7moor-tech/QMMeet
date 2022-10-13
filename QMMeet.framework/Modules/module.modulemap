@@ -1,0 +1,6 @@
+framework module QMMeet {
+  umbrella header "QMMeet.h"
+
+  export *
+  module * { export * }
+}
